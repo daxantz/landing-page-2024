@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, div#section1, footer {
+    background-color:#1F2937 ;
+    color:#f9faf8 ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+#hero header {
+    padding-bottom: 50px;
+}
+header{
+    padding: 0 100px;
+}
+
+#section1 {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+div#section1 div h2{
+    margin: 0px ;
+    font-size: 48px;
+    font-weight:bolder
+}
+div#section1 div p {
+    margin: 0;
+}
+#section1 div button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px ;
+    padding: 5px 15px;
+    color: white;
+    margin-top: 5px;
+    width: 90px;
+}
+#section1 {
+    display: flex;
+    
+}
+#section1 div{
+    width: 50%;
+}
+
