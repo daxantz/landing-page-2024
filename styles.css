@@ -55,3 +55,79 @@ div#section1 div p {
     width: 50%;
 }
 
+#section2 {
+    text-align: center;
+    
+}
+
+#section2 div#items {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    
+}
+
+div.infoBox {
+    max-width: 200px
+}
+
+
+
+div.square {
+    border: 1px solid blue;
+    border-width: 2px;
+    max-width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+#section3 {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+#section3 #text {
+    max-width: 100%;
+}
+#text #quote{
+    font-size: 36px;
+    font-style:italic;
+    color: #444a52;
+}
+
+#text #quotee {
+    margin-left: 70%;
+    color: black;
+}
+
+#section4 #ad {
+    background-color:#3882f6 ;
+    margin: 50px auto;
+   max-width: 75%;
+    height: 100px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#actionTxt {
+    max-width: 75%;
+}
+
+#btnContainer{
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+#btnContainer button {
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+
